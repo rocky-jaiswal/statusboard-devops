@@ -1,6 +1,7 @@
 server {
     listen   443;
     server_name statusboard.in;
+    gzip_static  on;
 
     access_log  /var/log/nginx/statusboard.access.log;
 
