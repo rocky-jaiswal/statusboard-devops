@@ -1,0 +1,19 @@
+description "This is an upstart job file for TorqueBox"
+
+pre-start script
+bash << "EOF"
+  mkdir -p /tmp/torquebox
+EOF
+end script
+
+start on started network-services
+stop on stopped network-services
+respawn
+
+limit nofile 4096 4096
+
+script
+bash << "EOF"
+  /opt/torquebox/jboss/bin/standalone.sh >> /tmp/torquebox/torquebox.log 2>&1
+EOF
+end script

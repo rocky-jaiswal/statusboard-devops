@@ -1,0 +1,36 @@
+{
+  "name": "plainprogrammer/torquebox",
+  "version": "0.3.0",
+  "source": "git://github.com/plainprogrammer/puppet-torquebox",
+  "author": "James Thompson",
+  "license": "MIT",
+  "summary": "Installs and manages TorqueBox",
+  "description": "A module to install and manage the TorqueBox application server.",
+  "project_page": "http://github.com/plainprogrammer/puppet-torquebox",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Gemfile": "964636baad02194f990d581370d83676",
+    "Gemfile.lock": "9ac77dd29abfd4ed0acff87888798bd6",
+    "LICENSE.md": "f2a9185fc13e55e13cff7d49812d8645",
+    "Modulefile": "c01a05b3dbe1c1415b3eeed2dc084f82",
+    "README.md": "65d4dd5fd6de1e3dc01ed54b928eda23",
+    "Rakefile": "78524dcef73c86b22b47aa245a50904b",
+    "Vagrantfile": "353f25a4ce5153401ed96e9dcfff8442",
+    "files/torquebox_path.sh": "d8b3578a916ce29fbc19537486425005",
+    "files/torquebox_vars.sh": "5e0076b18e1056034c641bd4d6a4ee01",
+    "files/upstart.conf": "c806486ed9e6069c098e283ee983e011",
+    "manifests/init.pp": "aa1161c3b0b4380dcc3347a6e308b573",
+    "manifests/java.pp": "ab1bd500d1b454fd9c2def775f644226",
+    "spec/classes/torquebox_java_spec.rb": "69f4934da5db9521af0d97fecb7efbe1",
+    "spec/classes/torquebox_spec.rb": "8c49bb7dde886f7035db2f4a8f60a5d3",
+    "spec/fixtures/manifests/vagrant.pp": "96557b1dd3f651265f64615aed940ded",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "tests/init.pp": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}
