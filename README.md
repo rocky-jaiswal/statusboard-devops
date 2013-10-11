@@ -9,9 +9,9 @@ sudo apt-get update
 
 sudo apt-get install puppet-common wget curl git
 
-git clone https://github.com/rocky-jaiswal/main-devops.git
+git clone https://github.com/rocky-jaiswal/statusboard-devops.git
 
-cd main-devops
+cd statusboard-devops
 
 chmod u+x setup.sh
 
